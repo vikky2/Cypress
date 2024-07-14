@@ -1,0 +1,22 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "Vikky Cypress Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikky2/Cypress.git"
+  },
+  "author": "Vikky R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikky2/Cypress/issues"
+  },
+  "homepage": "https://github.com/vikky2/Cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  }
+}
