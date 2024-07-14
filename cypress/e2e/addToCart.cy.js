@@ -22,10 +22,10 @@ describe('product in cart', () => {
         cy.login();
         cy.get('.shopping_cart_link').click();
         cy.get('.cart_list').contains('Remove');
-        cy.get('#remove-sauce-labs-backpack').click();
-        cy.get('#remove-sauce-labs-bike-light').click();
-        cy.contains('Continue Shopping').click();
-        cy.get('.cart_list').should('have.length', 0);
+        cy.get('#remove-sauce-labs-backpack').click(); //removing the sauce labs backpack product
+        cy.get('#remove-sauce-labs-bike-light').click(); //removing the labs bike light product
+        cy.contains('Continue Shopping').click(); //clicking on continue shopping button
+        cy.get('.cart_list').should('have.length', 0); //checking the cart if items are present or not
     });    
 
 });
